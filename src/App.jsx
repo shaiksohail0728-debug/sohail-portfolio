@@ -75,4 +75,11 @@ function App() {
       </main>
 
       {/* Footer */}
-      <footer className="text-center py-6 text-sm text-gray-500">
+      <footer className="text-center py-6 text-sm text-gray-500 bg-white mt-12 shadow-inner">
+        © {new Date().getFullYear()} Shaik Sohail. All rights reserved.
+      </footer>
+    </div>
+  );
+}
+
+export default App;
