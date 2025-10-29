@@ -1,7 +1,14 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
+/* Example additional styles */
 body {
+  margin: 0;
   font-family: 'Inter', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Accent color if you want override */
+:root {
+  --accent-blue: #2563EB;
 }
